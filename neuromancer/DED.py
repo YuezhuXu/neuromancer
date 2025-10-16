@@ -340,7 +340,8 @@ import torch
 import torch.nn as nn
 
 # ecosystem imports
-from neuromancer import slim
+import slim
+
 
 
 
@@ -931,8 +932,7 @@ class Forecast_Policy(Component):
 
 
 
-from neuromancer.slim.linear import LinearBase
-
+from slim.linear import LinearBase
 
 
 
